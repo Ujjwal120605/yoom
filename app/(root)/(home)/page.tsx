@@ -5,8 +5,6 @@ import CurrentTime from '@/components/CurrentTime';
 import { useGetCalls } from '@/hooks/useGetCalls';
 
 const Home = () => {
-  const now = new Date();
-
   const { upcomingCalls } = useGetCalls();
   const upcomingCall = upcomingCalls && upcomingCalls.length > 0
     ? upcomingCalls[0]
