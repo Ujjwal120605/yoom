@@ -1,3 +1,5 @@
+'use client';
+
 import MeetingTypeList from '@/components/MeetingTypeList';
 import CurrentTime from '@/components/CurrentTime';
 import { useGetCalls } from '@/hooks/useGetCalls';
